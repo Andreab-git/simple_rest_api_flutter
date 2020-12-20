@@ -1,6 +1,6 @@
 # simple_rest_api_flutter
 
-Simple REST API flutter application
+Simple REST API Flutter application
 
 ## Getting Started
 
