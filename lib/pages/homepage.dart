@@ -47,7 +47,6 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
 
             SizedBox(height: 20),
-
             _user == null ? Container() :
             Text('The user ${_user.name}, ${_user.id} is created successfully at time '
                 '${_user.createdAt.toIso8601String()}'),
@@ -60,10 +59,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   Navigator.pushNamed(context, '/list_users_page');
                 },
               ),
-            )
-
+            ),
           ],
-
         ),
       ),
       floatingActionButton: FloatingActionButton(

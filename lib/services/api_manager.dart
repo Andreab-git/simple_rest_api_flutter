@@ -1,4 +1,3 @@
-import 'dart:convert';
 import 'package:simple_rest_api_flutter/constants/strings.dart';
 import 'package:simple_rest_api_flutter/models/list_users.dart';
 import 'package:http/http.dart' as http;
@@ -6,6 +5,7 @@ import 'package:simple_rest_api_flutter/models/user_model.dart';
 
 
 class API_Manager {
+
   Future<UserModel> createUser(String name, String jobTitle) async {
     final String apiUrl = Strings.postCreate;
 
@@ -28,7 +28,6 @@ class API_Manager {
   }
 
   Future<ListUsers> listUsers() async {
-    final String apiUrl = Strings.getListUsers;
 
     ListUsers listUsers;
 

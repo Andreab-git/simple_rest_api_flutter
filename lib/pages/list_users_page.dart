@@ -23,7 +23,7 @@ class _ListUsersPageState extends State<ListUsersPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(        
+      appBar: AppBar(
         title: Text('List users page'),
         backgroundColor: Colors.grey[800],
       ),
@@ -40,35 +40,27 @@ class _ListUsersPageState extends State<ListUsersPage> {
                   child: Card(
                     child: ListTile(
                       title: Text(
-                          '--> Email: ${newItem.email}\n'
-                              '--> First_name: ${newItem.firstName}\n'
-                              '--> Last_name: ${newItem.lastName}\n'
+                              'Email: ${newItem.email}\n'
+                              'First_name: ${newItem.firstName}\n'
+                              'Last_name: ${newItem.lastName}\n'
                       ),
                       leading: CircleAvatar(
                         backgroundImage: NetworkImage('${newItem.avatar}'),
                         radius: 28,
                         backgroundColor: Colors.transparent,
                       ),
-                      ),
                     ),
-                  );
-                /*Container(
-                  height: 100,
-                  child: Text(
-                      '--> Email: ${newItem.email}\n'
-                      '--> First_name: ${newItem.firstName}\n'
-                      '--> Last_name: ${newItem.lastName}\n'
                   ),
-                );*/
+                );
               },
             );
           else {
             return Container(
               alignment: Alignment.center,
               color: Colors.blue,
-                child: CircularProgressIndicator(
-                  backgroundColor: Colors.blue,
-                ),
+              child: CircularProgressIndicator(
+                backgroundColor: Colors.blue,
+              ),
             );
           }
         },

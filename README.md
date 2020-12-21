@@ -2,15 +2,17 @@
 
 Simple REST API Flutter application
 
-## Getting Started
+Hi, this is my first flutter application. In this project I do a basic
+implementation of how to do GET and POST method on fake REST API site.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Simple Flutter REST API application
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Hi, this is my first flutter application. In this project, the GET and POST methods are implemented on a test REST API site.
+I hope it will be of help to someone who intends to take the first steps in building an app that communicates with a REST API.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For REST-API calls:
+<https://reqres.in/>
+
+For Json to Dart code:
+<https://app.quicktype.io/>
